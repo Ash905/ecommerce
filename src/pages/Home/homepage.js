@@ -80,7 +80,7 @@ const ArrivalCard = styled(Link)`
 `;
 
 // --- HOMEPAGE COMPONENT ---
-export const HomePage = ({ propsData }) => {
+const HomePage = ({ propsData }) => {
   return (
     <HomePageWrapper>
       <Layout headerData={propsData.headerData}>
@@ -155,3 +155,5 @@ export const HomePage = ({ propsData }) => {
     </HomePageWrapper>
   );
 };
+
+export default HomePage;
